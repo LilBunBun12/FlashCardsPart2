@@ -1,0 +1,17 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+}
+
+.ButtonContainer{
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ButtonContainer p:hover{
+  cursor: pointer;
+}
+

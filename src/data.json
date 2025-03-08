@@ -1,0 +1,42 @@
+[
+    {
+        "Question": "1 + 1 = __",
+        "Answer": "2"
+    },
+    {
+        "Question": "2 + 3 = __",
+        "Answer": "5"
+    },
+    {
+        "Question": "3 + 4 = __",
+        "Answer": "7"
+    },
+    {
+        "Question": "5 + 5 = __",
+        "Answer": "10"
+    },
+    {
+        "Question": "10 + 3 = __",
+        "Answer": "13"
+    },
+    {
+        "Question": "6 + 3 = __",
+        "Answer": "9"
+    },
+    {
+        "Question": "12 + 2 = __",
+        "Answer": "14"
+    },
+    {
+        "Question": "6 + 6 = __",
+        "Answer": "11"
+    },
+    {
+        "Question": "2 + 15 = __",
+        "Answer": "17"
+    },
+    {
+        "Question": "3 + 16 = __",
+        "Answer": "19"
+    }
+]

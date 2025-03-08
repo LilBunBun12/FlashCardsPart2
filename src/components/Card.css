@@ -1,0 +1,13 @@
+.Card{
+    width: 40vw;
+    height: 200px;
+    border: 1px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+.Card:hover{
+    cursor:pointer;
+}
