@@ -1,0 +1,5 @@
+Things added Week 4:
+
+1. The Reveal button toggles between show question and Reveal answer
+2. The Reveal Answer doesn't work until Check answer is showing
+3. Next and Prev buttons slide through the deck
