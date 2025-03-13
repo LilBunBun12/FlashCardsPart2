@@ -11,7 +11,9 @@ const App = () => {
   const [lock,setLock] = useState(true);
   const [streak,setStreak] = useState(0);
   const [longestStreak,setLongestStreak] = useState(0);
-  const structuredData = items.map(item => new Data(item.Question, item.Answer));
+  const structuredDataOriginal = items.map(item => new Data(item.Question, item.Answer));
+  const [structuredData,setsStructuredData] = useState(structuredDataOriginal);
+
   // console.log(structuredData[index]);
 
   const Prev = () =>{
@@ -33,6 +35,19 @@ const App = () => {
     else
       setShow(0);
     // console.log("This function is getting used")
+  };
+
+  const shuffle = () =>{
+    let shuffledArray = [...structuredData];
+    for(let i = 0; i < shuffledArray.length;i++)
+    {
+      let j = Math.floor(Math.random() * (i+1));
+      let temp = shuffledArray[i];
+      shuffledArray[i] = shuffledArray[j];
+      shuffledArray[j] = temp;
+    }
+
+    setsStructuredData(shuffledArray);
   };
 
   useEffect(() =>{
@@ -59,6 +74,7 @@ const App = () => {
         <p onClick = {Prev}>Prev</p>
         <p onClick = {Next}> Next</p>
       </div>
+      <button onClick = {shuffle}>Shuffle</button>
     </div>
   )
 }
