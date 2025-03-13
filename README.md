@@ -43,7 +43,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Learning how to use useState, useEffect, and making it work with input into the website
 
 ## License
 
